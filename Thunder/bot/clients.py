@@ -1,4 +1,3 @@
-import sys
 import asyncio
 import logging
 from ..vars import Var
@@ -42,5 +41,4 @@ async def initialize_clients():
         print("Multi-Client Mode Enabled")
     else:
         print("No additional clients were initialized, using default client")
-
-sys.exit()
+        
